@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" class="form-control" id="age" placeholder="Enter your age">
+      </div>
+      <div class="form-group">
+        <label for="feedback">Feedback:</label>
+        <textarea class="form-control" id="feedback" rows="3" placeholder="Enter your feedback"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satisfaction Rating Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mt-4">How satisfied are with you?</h2>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6">
+        <form id="satisfaction-form">
+          <div class="form-group">
+            <label for="satisfaction-rating">Rate your satisfaction:</label>
+            <select class="form-control" id="satisfaction-rating">
+              <option value="5">Very satisfied</option>
+              <option value="4">Satisfied</option>
+              <option value="3">Neutral</option>
+              <option value="2">Dissatisfied</option>
+              <option value="1">Very dissatisfied</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="feedback">Additional feedback:</label>
+            <textarea class="form-control" id="feedback" rows="3" placeholder="Enter your feedback (optional)"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Like Rating Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mt-4">How likey are you to?</h2>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6">
+        <form id="like-form">
+          <div class="form-group">
+            <label for="like-rating">Rate your liking:</label>
+            <select class="form-control" id="like-rating">
+              <option value="5">Love it!</option>
+              <option value="4">Like it</option>
+              <option value="3">It's okay</option>
+              <option value="2">Not a fan</option>
+              <option value="1">Hate it</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="like-feedback">Additional feedback:</label>
+            <textarea class="form-control" id="like-feedback" rows="3" placeholder="Enter your feedback (optional)"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
